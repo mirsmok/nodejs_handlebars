@@ -1,0 +1,21 @@
+{
+  "name": "goals-tracker",
+  "version": "1.0.0",
+  "description": "A personal goals tracking app provided as a Node.js MVC example - using Express, NeDB, Handlebars and Material Design Lite.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Aurelien Giraud",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
